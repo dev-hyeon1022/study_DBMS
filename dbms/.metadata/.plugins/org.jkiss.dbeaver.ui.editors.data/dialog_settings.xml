@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="AbstractTextPanelEditor">
+		<item key="content.text.editor.auto-format" value="true"/>
+	</section>
+</section>

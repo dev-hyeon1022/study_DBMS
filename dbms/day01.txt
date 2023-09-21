@@ -1,0 +1,366 @@
+DB(Database)
+   데이터가 모여 있는 곳
+   추상적인 개념
+
+DBMS(Database Management System)
+   데이터베이스를 실질적, 구체적으로 관리할 수 있는 프로그램 및 시스템
+   구체적인 개념
+
+   Oracle, MySQL, MS-SQL, MongoDB, MariaDB, ...
+
+DBMS의 소통 방식
+
+-----------------------------------------------------
+         사용자
+-----------------------------------------------------
+   ↕           ↕      ↕
+고객 관리 응용프로그램            주문 관리 응용프로그램
+   ↕           ↕      ↕
+-----------------------------------------------------
+         DBMS
+-----------------------------------------------------
+
+RDBMS(관계형 데이터베이스 시스템)
+   테이블끼리 서로 관계를 맺는다.
+
+Table A(Student, User,    People, Member)      Table B(Order)
+
+번호(PK)   이름    나이    아이디(UK)      주문번호(PK)   번호(FK)   날짜      상품수량
+1   임수현   20   lsh9999         20230706001   2   2023-07-06   15
+2   임웅빈   19   lub7897         20230706002   2   2023-07-06   30
+3   백지호   18   bjh7744         20230705001   4   2023-07-05   152
+4   이서호   19   lsh1234         20230705002   4   2023-07-05   156
+5   조현상   15   chs7878         20230705003   4   2023-07-05   1
+
+이러한 구조를 가지는 것을 Table, Class라고 부른다.
+
+COLUMN(열, 속성, 필드)
+   공통된 값들의 주제
+
+ROW(행, 레코드, 튜플)
+   하나의 정보
+
+PRIMARY KEY(PK)
+   고유한 값.
+   각 행의 구분점으로 사용된다.
+   중복이 없고 NULL값을 허용하지 않는다.
+   *NULL : 아직 어떤 값을 넣을 지 모르겠다는 의미로 넣는 값.
+
+FOREIGN KEY(FK)
+   다른 테이블의 PK를 의미한다.
+   보통 테이블끼리 관계를 맺을 때 사용한다.
+   중복이 가능하고 NULL도 허용한다.
+
+UNIQUE KEY(UK)
+   NULL은 허용하지만 중복을 허용하지 않는다.
+-------------------------------------------------------------------------------------------------
+SQL(Structured Query Language): 쿼리문
+   DBMS와 소통하기 위해 사용하는 언어
+   스크립트 언어
+
+MySQL
+   웹 사이트와 다양한 애플리케이션에서 사용되는 DBMS이다.
+   오라클은 관리 비용이 고가이지만 MySQL은 저가형 데이터베이스이다.
+   문법이 간결하고 쉬우며, 메모리 사용량이 현저히 낮아서 부담없이 사용 가능하다.
+
+MySQL 설치
+   구글 드라이브
+   https://drive.google.com/file/d/1OkSYmK7GIrbHa5vFceGaji4H4QWaa8Sn/view?usp=drive_link
+
+   홈페이지
+   https://dev.mysql.com/downloads/windows/installer/8.0.html
+   (mysql-installer-community-8.0.30.0.msi, 435.7M) 다운로드
+
+
+IDE 설치 - DBeaver
+   구글 드라이브
+   https://drive.google.com/file/d/1DATzZoOAUJAZOvkTlzJagLcYLFt0-DuU/view?usp=sharing
+
+   홈페이지
+   https://dbeaver.io/download/
+   windows 64bit(zip) - 무설치 버전 설치
+   압축 해제 후 DBeaver.exe 실행
+
+MySQL 드라이버 다운로드
+   구글 드라이브
+   https://drive.google.com/file/d/1zMtaRgbQ1SZHoohIYFkI4rs8XhF_JKy_/view?usp=drive_link
+
+   홈페이지
+   https://dev.mysql.com/downloads/connector/j/
+   > archives 선택 > Platform Independent 선택
+         > .zip 다운로드
+-------------------------------------------------------------------------------------------------
+MySQL 기초문법
+
+   - 계정 생성
+      mysql -u root -p
+      1234
+      use mysql;
+      create user 'app'@'%' identified by '1234';
+      grant all privileges on *.* to 'app'@'%' with grant option;
+      flush privileges;
+
+
+   - 데이터베이스 생성
+      create database [데이터베이스 이름];
+
+   - 사용할 데이터베이스 선택
+      use [데이터베이스 이름];
+
+   - CRUD 작성
+-------------------------------------------------------------------------------------------------
+SQL 종류 - DDL, DML, DCL, TCL
+
+자료형
+   - 정수
+      tinyint
+      smallint
+      mediumint
+      int
+      bigint
+
+   - 실수
+      decimal(m, d) : m자리 정수, d자리 소수점으로 표현
+
+   - 날짜
+      date : 1000-01-01 ~ 9999-12-31(3byte)
+      time : -838:59:59 ~ 838:59:59(3byte)
+      datetime : 1000-01-01 00:00:00 ~ 9999-12-31 23:59:59(8byte)
+
+   - 문자
+      char(m) : 고정 길이 문자열(0~255)
+      varchar(m) : 가변 길이 문자열(0~65535)
+
+
+- DDL(Data Definition Language) : 데이터 정의어
+   테이블 조작, 제어 관련 쿼리문
+
+   1. create : 테이블 생성
+      create table [테이블명]( [컬럼명] [자료형]([용량]) [제약조건], ... );
+
+   2. drop : 테이블 삭제
+      drop table [테이블명]
+
+   3. alter : 테이블 수정
+      - 테이블명 수정
+         alter table [테이블명] rename [새로운 테이블명]
+      - 컬럼 맨 뒤에 추가
+         alter table [테이블명] add [컬럼명] [자료형] [제약조건];
+      - 컬럼 맨 앞에 추가
+         alter table [테이블명] add [컬럼명] [자료형] [제약조건] first;
+      - 컬럼 지정 위치에 추가
+         alter table [테이블명] add [컬럼명] [자료형] [제약조건] after [기존 컬럼명];
+      - 컬럼 삭제
+         alter table [테이블명] drop [컬럼명];
+      - 컬럼명 변경
+         alter table [테이블명] change [기존컬럼명] [변경할 컬럼명] [컬럼타입];
+      - 컬럼 타입 변경
+         alter table [테이블명] modify [컬럼명] [변경할 컬럼타입];
+      - 제약 조건 확인
+         desc [데이터베이스명].[테이블명];
+      - 제약 조건 추가
+         alter table [테이블명] add constraint [제약조건 이름];
+      - 제약 조건 삭제
+         alter table [테이블명] drop constraint [제약조건 이름];
+   
+
+   4. truncate : 테이블 내용 전체 삭제
+      truncate table [테이블명]
+==========================================================================
+무결성
+   데이터의 정확성, 일관성, 유효성이 유지되는 것.
+
+   정확성 : 데이터는 애매하지 않아야 한다.
+   일관성 : 각 사용자가 일관된 데이터를 볼 수 있도록 해야한다.
+   유효성 : 데이터가 실제 존재하는 데이터여야 한다.
+
+1. 개체 무결성
+   모든 테이블이 PK로 선택된 컬럼을 가져야 한다.
+
+2. 참조 무결성
+   두 테이블의 데이터가 항상 일관된 값을 가지도록 유지하는 것.
+
+3. 도메인 무결성
+   컬럼의 타입, NULL값의 허용 등에 대한 사항을 정의하고
+   올바른 데이터가 입력되었는 지를 확인하는 것.
+-------------------------------------------------------------------------------------------------
+모델링(기획)
+   추상적인 주제를 DB에 맞게 설계하는 것
+
+1. 요구사항 분석
+   회원, 주문, 상품: 3가지를 관리하고자 한다.
+
+2. 개념적 설계(개념 모델링)
+   회원   주문   상품
+   --------------------
+   번호   번호   번호
+   --------------------
+   아이디   주문날짜   상품명
+   비밀번호   번호   가격
+   주소   번호   재고량
+   이메일
+   생일
+
+3. 논리적 설계(논리 모델링)	
+   회원      주문      상품
+   ----------------------------------------
+   번호(PK)      번호(PK)      번호(PK)
+   ----------------------------------------
+   아이디(UK)   주문날짜      상품명
+   비밀번호      회원번호(FK)   가격
+   주소      번호(FK)      재고량
+   이메일(UK)
+   생일   
+
+4. 물리적 설계(물리 모델링)
+   tbl_member
+   -------------------------
+   id: bigint(pk)      
+   -------------------------
+   member_id(uk): varchar   
+   member_password: varchar   
+   member_address: varchar   
+   member_email(uk): varchar
+   member_birth: date
+
+   ==========================
+
+   tbl_product
+   -------------------------
+   id: bigint(pk)
+   -------------------------
+   product_name: varchar
+   product_price: int
+   product_stock: int
+
+   ==========================
+
+   tbl_order
+   -------------------------
+   id: bigint(pk)
+   -------------------------
+   order_date: datetime
+   member_id: bigint(fk)
+   product_id: bigint(fk)
+
+5. 구현
+-------------------------------------------------------------------------------------------------
+/*
+ * 요구 사항
+ * 
+ * 커뮤니티 게시판을 만들고 싶어요.
+ * 게시판에는 게시글 제목과 게시글 내용, 작성한 시간, 작성자가 있고,
+ * 게시글에는 댓글이 있어서 댓글 내용들이 나와야 해요
+ * 작성자는 회원(TBL_MEMBER)정보를 그대로 사용해요.
+ * 댓글에도 작성자가 필요해요.
+ * 
+ * 
+ * */
+
+1. 요구사항 분석
+   게시글 제목, 게시글 내용, 게시글 댓글
+   작성자 , 작성자 시간
+   작성자는 table member사용하기
+
+
+1. 모델링
+
+  ※요구사항
+    게시글 제목, 게시글 내용, 게시글 작성자, 게시글 시간 
+    댓글 내용, 댓글 작성
+
+1. 모델링
+
+  ※요구사항
+      게시글 제목, 게시글 내용, 게시글 작성자, 게시글 시간
+      댓글 내용, 댓글 작성
+
+
+
+    게시글          댓글                작성자
+-----------------------------------------------------
+      번호           번호                 번호
+-----------------------------------------------------
+     제목            내용               아이디
+     내용            작성자            비밀번호
+     작성자                              이메일 
+     시간
+
+
+
+2. 테이블 구현을 위한 DDL SQL문
+    post                  reply                    member
+------------------------------------------------------------------
+     id                     id                           id
+------------------------------------------------------------------    
+    post_title          reply_content       member_id
+    post_content     member_id          member_password
+    member_id                                member_email 
+    post_time
+
+
+create table tbl_member(
+   id bigint unsigned auto_increment primary key,
+   member_id varchar(255) not null unique,
+   member_password varchar(255) not null,
+   member_email varchar(255) not null unique,
+);
+
+
+create table tbl_post(
+   id bigint unsigned auto_increment primary key,
+   post_title varchar(255) not null,
+   post_content varchar(255) not null,
+   post_time datetime not null,
+   member_id bigint unsigned,
+   
+   constraint fk_post_member foreign key(member_id)
+   references tbl_member(id)
+);
+
+
+ 
+   회원   주문   상품
+   --------------------
+   번호   번호   번호
+   --------------------
+   아이디   주문날짜   상품명
+   비밀번호   번호   가격
+   주소   번호   재고량
+   이메일
+   생일
+
+
+
+3. 논리적 설계(논리 모델링)
+   회원      주문      상품
+   ----------------------------------------
+   번호(PK)      번호(PK)      번호(PK)
+   ----------------------------------------
+   아이디(UK)   주문날짜      상품명
+   비밀번호      회원번호(FK)   가격
+   주소      번호(FK)      재고량
+   이메일(UK)
+   생일   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

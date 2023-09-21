@@ -1,0 +1,45 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-1892ea1cbd2-312836335ff0f4b4": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"auth-model": "native"
+			},
+			"custom-properties": {
+				"SQLEditor.outputPanel.autoShow": "false"
+			}
+		}
+	},
+	"virtual-models": {
+		"mysql8-1892ea1cbd2-312836335ff0f4b4": {
+			"study": {
+				"@properties": {
+					"erd.diagram.state": {
+						"serialized": "\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202307121643\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"mysql8-1892ea1cbd2-312836335ff0f4b4\"\u003e\u003centity id\u003d\"1\" name\u003d\"tbl_advertisement\" fq-name\u003d\"study.tbl_advertisement\" order\u003d\"0\" font\u003d\"Segoe UI:9:0\" x\u003d\"76\" y\u003d\"334\"\u003e\u003cpath name\u003d\"study\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"tbl_apply\" fq-name\u003d\"study.tbl_apply\" order\u003d\"1\" font\u003d\"Segoe UI:9:0\" x\u003d\"298\" y\u003d\"338\"\u003e\u003cpath name\u003d\"study\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"3\" name\u003d\"tbl_category_a\" fq-name\u003d\"study.tbl_category_a\" order\u003d\"2\" font\u003d\"Segoe UI:9:0\" x\u003d\"521\" y\u003d\"534\"\u003e\u003cpath name\u003d\"study\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"4\" name\u003d\"tbl_category_b\" fq-name\u003d\"study.tbl_category_b\" order\u003d\"3\" font\u003d\"Segoe UI:9:0\" x\u003d\"299\" y\u003d\"524\"\u003e\u003cpath name\u003d\"study\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"5\" name\u003d\"tbl_category_c\" fq-name\u003d\"study.tbl_category_c\" order\u003d\"4\" font\u003d\"Segoe UI:9:0\" x\u003d\"82\" y\u003d\"522\"\u003e\u003cpath name\u003d\"study\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"6\" name\u003d\"tbl_company\" fq-name\u003d\"study.tbl_company\" order\u003d\"5\" font\u003d\"Segoe UI:9:0\" x\u003d\"302\" y\u003d\"127\"\u003e\u003cpath name\u003d\"study\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"fk_apply_advertisement\" fq-name\u003d\"study.tbl_apply.fk_apply_advertisement\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"2\"/\u003e\u003crelation name\u003d\"fk_category_b_category_a\" fq-name\u003d\"study.tbl_category_b.fk_category_b_category_a\" type\u003d\"fk\" pk-ref\u003d\"3\" fk-ref\u003d\"4\"/\u003e\u003crelation name\u003d\"fk_category_c_category_b\" fq-name\u003d\"study.tbl_category_c.fk_category_c_category_b\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"5\"/\u003e\u003crelation name\u003d\"fk_advertisement_category_c\" fq-name\u003d\"study.tbl_advertisement.fk_advertisement_category_c\" type\u003d\"fk\" pk-ref\u003d\"5\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"fk_apply_company\" fq-name\u003d\"study.tbl_apply.fk_apply_company\" type\u003d\"fk\" pk-ref\u003d\"6\" fk-ref\u003d\"2\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

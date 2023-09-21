@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="NodeList/DBNDatabaseObject">
+		<column name="Name" visible="true" order="0" width="138"/>
+	</item>
+	<item id="NodeList/DBNProjectDatabases/DBNBookmarkFolder/DBNDiagramFolder/DBNResource">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="경로" visible="true" order="1" width="104"/>
+		<column name="크기" visible="true" order="2" width="100"/>
+		<column name="최종 수정" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/DataSourceDescriptor">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="설명" visible="true" order="1" width="100"/>
+		<column name="Origin" visible="true" order="2" width="100"/>
+		<column name="드라이버 유형" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/MySQLCatalog">
+		<column name="Schema Name" visible="true" order="0" width="112"/>
+		<column name="Default Charset" visible="true" order="1" width="120"/>
+		<column name="Default Collation" visible="true" order="2" width="131"/>
+		<column name="SQL Path" visible="true" order="3" width="100"/>
+		<column name="Database size" visible="true" order="4" width="107"/>
+	</item>
+	<item id="NodeList/MySQLTable">
+		<column name="테이블명" visible="true" order="0" width="100"/>
+		<column name="Engine" visible="true" order="1" width="100"/>
+		<column name="Auto Increment" visible="true" order="2" width="100"/>
+		<column name="Data Length" visible="true" order="3" width="100"/>
+		<column name="Description" visible="true" order="4" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="121"/>
+		<column name="#" visible="true" order="1" width="100"/>
+		<column name="Data Type" visible="true" order="2" width="100"/>
+		<column name="Not Null" visible="true" order="3" width="100"/>
+		<column name="Auto Increment" visible="true" order="4" width="100"/>
+		<column name="Key" visible="true" order="5" width="100"/>
+		<column name="디폴트" visible="true" order="6" width="100"/>
+		<column name="Extra" visible="true" order="7" width="100"/>
+		<column name="Expression" visible="true" order="8" width="100"/>
+		<column name="Comment" visible="true" order="9" width="100"/>
+	</item>
+	<item id="NodeList/MySQLUser">
+		<column name="User name" visible="true" order="0" width="218"/>
+		<column name="Host mask" visible="true" order="1" width="100"/>
+		<column name="SSL type" visible="true" order="2" width="100"/>
+		<column name="SSL cipher" visible="true" order="3" width="100"/>
+		<column name="Max questions" visible="true" order="4" width="113"/>
+		<column name="Max updates" visible="true" order="5" width="102"/>
+		<column name="Max connections" visible="true" order="6" width="130"/>
+		<column name="Max user connections" visible="true" order="7" width="163"/>
+	</item>
+	<item id="SchemaSelector">
+		<column name="Schema Name" visible="true" order="0" width="110"/>
+		<column name="Default Charset" visible="true" order="1" width="116"/>
+		<column name="Default Collation" visible="true" order="2" width="127"/>
+		<column name="SQL Path" visible="true" order="3" width="100"/>
+		<column name="Database size" visible="true" order="4" width="106"/>
+	</item>
+	<item id="Suggestion/NodeList/MySQLTableColumn">
+		<column name="Column Name" visible="true" order="0" width="146"/>
+		<column name="#" visible="true" order="1" width="70"/>
+		<column name="Data Type" visible="true" order="2" width="154"/>
+		<column name="Not Null" visible="false" order="3" width="100"/>
+		<column name="Auto Increment" visible="false" order="4" width="116"/>
+		<column name="Key" visible="false" order="5" width="100"/>
+		<column name="Default" visible="false" order="6" width="100"/>
+		<column name="Extra" visible="false" order="7" width="100"/>
+		<column name="Expression" visible="false" order="8" width="100"/>
+		<column name="Comment" visible="true" order="3" width="116"/>
+	</item>
+</items>

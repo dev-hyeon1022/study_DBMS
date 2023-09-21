@@ -1,0 +1,706 @@
+2023-07-13 10:21:10.987 - DBeaver 23.0.5.202305211610 is starting
+2023-07-13 10:21:10.988 - OS: Windows 10 10.0 (amd64)
+2023-07-13 10:21:10.988 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2023-07-13 10:21:10.988 - Install path: 'D:\DevRoot\dbeaver'
+2023-07-13 10:21:10.989 - Instance path: 'file:/D:/kdt_0900_lsh/dbms/mysql/workspace/'
+2023-07-13 10:21:10.989 - Memory available 64Mb/1024Mb
+2023-07-13 10:21:11.008 - Create display
+2023-07-13 10:21:11.187 - Initializing DBeaver 23.0.5
+2023-07-13 10:21:11.189 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 23.0.5.202305211610
+2023-07-13 10:21:11.189 - Initialize desktop platform...
+2023-07-13 10:21:11.433 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.9.500.v20220817-1539]
+> Start Core Resource Management [org.eclipse.core.resources 3.18.200.v20230209-0754]
+> Start Team Support Core [org.eclipse.team.core 3.9.700.v20221201-0946]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.106.202305211610]
+2023-07-13 10:21:11.936 - Initialize base platform...
+> Start Expression Language [org.eclipse.core.expressions 3.8.200.v20220613-1047]
+2023-07-13 10:21:12.012 - Platform initialized (823ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.106.202305211610]
+2023-07-13 10:21:12.028 - Starting RMI server at 43906
+2023-07-13 10:21:12.175 - Run workbench
+> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.121.202305211610]
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.16.800.v20230220-0932]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.400.v20220915-1347]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.5.200.v20230220-0932]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.3.700.v20230214-1401]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.18.0.v20230211-1150]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.13.300.v20230220-0932]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.4.600.v20230220-0932]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.15.800.v20230214-1401]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.13.300.v20230220-0932]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.200.v20220613-1008]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.800.v20230220-0932]
+> Start Java Native Access [com.sun.jna 5.12.1.v20221103-2317]
+2023-07-13 10:21:26.150 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.96.202305211610]
+2023-07-13 10:21:26.324 - Total database drivers: 102 (102)
+> Start Help System Core [org.eclipse.help 3.9.100.v20210721-0601]
+2023-07-13 10:21:26.500 - Create actions
+2023-07-13 10:21:26.504 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2023-07-13 10:21:26.505 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2023-07-13 10:21:26.505 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2023-07-13 10:21:27.245 - Initialize workbench window
+2023-07-13 10:21:27.255 - Finish initialization
+> Start Default Text Editor [org.eclipse.ui.editors 3.15.0.v20221201-1935]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.16.700.v20230210-0941]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.106.202305211610]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.106.202305211610]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.82.202305211610]
+> Start Core Compare Support [org.eclipse.compare.core 3.7.100.v20220812-1406]
+> Start Console [org.eclipse.ui.console 3.11.400.v20221012-0524]
+> Start Debug Core [org.eclipse.debug.core 3.20.100.v20230124-1239]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.1000.v20220801-1135]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.4.100.v20220812-1406]
+> Start Internet Connection Management [org.eclipse.core.net 1.4.0.v20220813-1037]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.143.202305211610]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.112.202305211610]
+> Start Draw2d [org.eclipse.draw2dl 3.12.100.20230512005007]
+> Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20230512005007]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.66.202305211610]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.66.202305211610]
+2023-07-13 10:21:31.069 - Connect with 'localhost' (mysql8-18929b4e233-55db798c51828db0)
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.191.202305211610]
+2023-07-13 10:21:31.106 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.130.202305211610]
+2023-07-13 10:21:31.424 - Execution context opened (localhost; Metadata; 1)
+2023-07-13 10:21:31.501 - Connected (mysql8-18929b4e233-55db798c51828db0, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+2023-07-13 10:21:31.581 - Execution context opened (localhost; SQLEditor <DDL.sql>; 2)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.84.202305211610]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.98.202305211610]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.84.202305211610]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.97.202305211610]
+2023-07-13 10:35:16.266 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2023-07-13 10:35:21.793 - Connect with 'jdbc:mysql://localhost:3306/' (mysql8-1894ce372af-1918baf60866aaee)
+2023-07-13 10:35:21.793 - Execution context opened (jdbc:mysql://localhost:3306/; Main; 3)
+2023-07-13 10:35:21.825 - Connected (mysql8-1894ce372af-1918baf60866aaee, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+2023-07-13 10:35:21.879 - Execution context closed (jdbc:mysql://localhost:3306/, 3)
+2023-07-13 10:35:21.879 - Disconnected (mysql8-1894ce372af-1918baf60866aaee)
+2023-07-13 10:36:01.119 - Connect with 'localhost' (mysql8-1894ce35c68-62b89d5de72a2a2a)
+2023-07-13 10:36:01.119 - Execution context opened (localhost; Main; 4)
+2023-07-13 10:36:01.124 - Execution context opened (localhost; Metadata; 5)
+2023-07-13 10:36:01.148 - Connected (mysql8-1894ce35c68-62b89d5de72a2a2a, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+2023-07-13 10:36:20.891 - No active connection
+2023-07-13 10:36:32.440 - Execution context opened (localhost; SQLEditor <app.sql>; 6)
+2023-07-13 10:36:35.854 - SQL Error [1049] [42000]: Unknown database 'app'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1049] [42000]: Unknown database 'app'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:924)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3873)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5096)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'app'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2023-07-13 10:36:48.985 - Execution context closed (localhost, 2)
+2023-07-13 10:37:01.230 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2023-07-13 10:37:08.936 - Execution context closed (localhost, 4)
+2023-07-13 10:37:08.970 - No execution context within database instance
+2023-07-13 10:37:08.970 - No execution context within database instance
+2023-07-13 10:37:08.988 - Execution context closed (localhost, 5)
+2023-07-13 10:37:09.038 - Execution context closed (localhost, 6)
+2023-07-13 10:37:09.038 - Disconnected (mysql8-1894ce35c68-62b89d5de72a2a2a)
+2023-07-13 10:37:09.079 - Connect with 'localhost' (mysql8-1894ce35c68-62b89d5de72a2a2a)
+2023-07-13 10:37:09.080 - Execution context opened (localhost; Main; 7)
+2023-07-13 10:37:09.090 - Execution context opened (localhost; Metadata; 8)
+2023-07-13 10:37:09.114 - Connected (mysql8-1894ce35c68-62b89d5de72a2a2a, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+2023-07-13 10:37:09.128 - Execution context opened (localhost; SQLEditor <app.sql>; 9)
+2023-07-13 10:37:11.419 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2023-07-13 10:37:12.221 - Connect with 'jdbc:mysql://localhost:3306/' (mysql8-1894ce5220c-622519426660ed22)
+2023-07-13 10:37:12.222 - Execution context opened (jdbc:mysql://localhost:3306/; Main; 10)
+2023-07-13 10:37:12.242 - Connected (mysql8-1894ce5220c-622519426660ed22, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+2023-07-13 10:37:12.293 - Execution context closed (jdbc:mysql://localhost:3306/, 10)
+2023-07-13 10:37:12.293 - Disconnected (mysql8-1894ce5220c-622519426660ed22)
+2023-07-13 10:37:16.335 - Connect with 'jdbc:mysql://localhost:3306/' (mysql8-1894ce53219-337cde6e7440901a)
+2023-07-13 10:37:16.336 - Execution context opened (jdbc:mysql://localhost:3306/; Main; 11)
+2023-07-13 10:37:16.357 - Connected (mysql8-1894ce53219-337cde6e7440901a, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+2023-07-13 10:37:16.408 - Execution context closed (jdbc:mysql://localhost:3306/, 11)
+2023-07-13 10:37:16.408 - Disconnected (mysql8-1894ce53219-337cde6e7440901a)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.1.202305211610]
+line 1:1 no viable alternative at input 'c'
+line 1:7 no viable alternative at input 'create t'
+line 1:7 no viable alternative at input 'create tb'
+line 1:7 no viable alternative at input 'create tba'
+line 1:7 no viable alternative at input 'create tbal'
+line 1:7 no viable alternative at input 'create tbale'
+line 1:7 no viable alternative at input 'create ta'
+line 1:7 no viable alternative at input 'create tab'
+line 1:7 no viable alternative at input 'create tabl'
+line 1:12 no viable alternative at input 'create table'
+line 1:14 no viable alternative at input 'create table t'
+line 1:16 no viable alternative at input 'create table tbl'
+line 1:17 no viable alternative at input 'create table tbl_'
+line 1:18 no viable alternative at input 'create table tbl_m'
+line 1:19 no viable alternative at input 'create table tbl_me'
+line 1:20 no viable alternative at input 'create table tbl_mem'
+line 1:21 no viable alternative at input 'create table tbl_memb'
+line 1:22 no viable alternative at input 'create table tbl_membe'
+line 1:23 no viable alternative at input 'create table tbl_member'
+line 3:0 no viable alternative at input 'create table tbl_member(\r\n\ti\r\n)'
+line 3:0 no viable alternative at input 'create table tbl_member(\r\n\tid\r\n)'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint u'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint un'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint ung'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint uns'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unst'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsi'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsin'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsig'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsign'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigne'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_member(\r\n\tid bigint unsigned'
+2023-07-13 10:38:44.784 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6
+
+Error position: line: 5
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:924)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3873)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5096)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+line 1:1 no viable alternative at input 'e'
+line 1:1 no viable alternative at input 's'
+line 1:2 no viable alternative at input 'sl'
+line 1:3 no viable alternative at input 'sle'
+line 1:4 no viable alternative at input 'slee'
+line 1:3 no viable alternative at input 'sle'
+line 1:4 no viable alternative at input 'slel'
+line 1:5 no viable alternative at input 'slele'
+line 1:2 no viable alternative at input 'se'
+line 1:10 no viable alternative at input 'select * f'
+line 1:10 no viable alternative at input 'select * f'
+line 1:10 no viable alternative at input 'select * f'
+line 1:1 no viable alternative at input 's'
+line 1:2 no viable alternative at input 'sl'
+line 1:2 no viable alternative at input 'se'
+line 1:10 no viable alternative at input 'select * f'
+line 1:10 no viable alternative at input 'select * f'
+line 1:10 no viable alternative at input 'select * f'
+line 2:7 no viable alternative at input 'select * from tbl_member\r\nwhere i'
+line 2:7 no viable alternative at input 'select * from tbl_member\r\nwhere i'
+line 2:7 no viable alternative at input 'select * from tbl_member\r\nwhere i'
+line 1:1 no viable alternative at input 'c'
+line 1:7 no viable alternative at input 'create t'
+line 1:7 no viable alternative at input 'create ta'
+line 1:7 no viable alternative at input 'create tab'
+line 1:7 no viable alternative at input 'create tabe'
+line 1:7 no viable alternative at input 'create tabl'
+line 1:12 no viable alternative at input 'create table'
+line 1:14 no viable alternative at input 'create table t'
+line 1:15 no viable alternative at input 'create table tb'
+line 1:18 no viable alternative at input 'create table tbl_a'
+line 1:18 no viable alternative at input 'create table tbl_a'
+line 1:18 no viable alternative at input 'create table tbl_v'
+line 1:18 no viable alternative at input 'create table tbl_a'
+line 1:18 no viable alternative at input 'create table tbl_c'
+2023-07-13 13:12:28.879 - Connect with 'localhost' (mysql8-1892ea1cbd2-312836335ff0f4b4)
+2023-07-13 13:12:28.880 - Execution context opened (localhost; Main; 12)
+2023-07-13 13:12:28.884 - Execution context opened (localhost; Metadata; 13)
+2023-07-13 13:12:28.906 - Connected (mysql8-1892ea1cbd2-312836335ff0f4b4, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+line 1:18 no viable alternative at input 'create table tbl_d'
+line 1:19 no viable alternative at input 'create table tbl_di'
+line 1:20 no viable alternative at input 'create table tbl_dir'
+line 1:21 no viable alternative at input 'create table tbl_dirk'
+line 3:0 no viable alternative at input 'create table tbl_drik(\r\n\r\n)'
+line 3:0 no viable alternative at input 'create table tbl_drik(\r\n\ta\r\n)'
+line 2:11 no viable alternative at input 'create table tbl_drik(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_drik(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_drik(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_drik(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_student(\r\n\tid bigint unsigned'
+line 1:1 no viable alternative at input 'c'
+line 1:7 no viable alternative at input 'create t'
+line 1:7 no viable alternative at input 'create tb'
+line 1:7 no viable alternative at input 'create tba'
+line 1:7 no viable alternative at input 'create tbal'
+line 1:7 no viable alternative at input 'create ta'
+line 1:7 no viable alternative at input 'create tab'
+line 1:7 no viable alternative at input 'create tabl'
+line 1:12 no viable alternative at input 'create table'
+line 1:14 no viable alternative at input 'create table u'
+line 1:15 no viable alternative at input 'create table ue'
+line 1:15 no viable alternative at input 'create table us'
+line 1:16 no viable alternative at input 'create table use'
+line 1:13 no viable alternative at input 'create table user'
+line 1:14 no viable alternative at input 'create table t'
+line 1:18 no viable alternative at input 'create table tbl_u'
+line 1:19 no viable alternative at input 'create table tbl_ur'
+line 1:19 no viable alternative at input 'create table tbl_us'
+line 1:20 no viable alternative at input 'create table tbl_use'
+line 1:21 no viable alternative at input 'create table tbl_user'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 1:1 no viable alternative at input 'a'
+line 1:2 no viable alternative at input 'al'
+line 1:3 no viable alternative at input 'alr'
+line 1:3 no viable alternative at input 'alr'
+line 1:2 no viable alternative at input 'al'
+line 1:2 no viable alternative at input 'al'
+line 1:2 no viable alternative at input 'al'
+line 1:3 no viable alternative at input 'alt'
+line 1:4 no viable alternative at input 'alte'
+line 1:5 no viable alternative at input 'alter'
+line 1:6 no viable alternative at input 'alter t'
+line 1:6 no viable alternative at input 'alter tb'
+line 1:6 no viable alternative at input 'alter tbl'
+line 1:6 no viable alternative at input 'alter tbl_'
+line 1:6 no viable alternative at input 'alter t'
+line 1:6 no viable alternative at input 'alter ta'
+line 1:6 no viable alternative at input 'alter t'
+line 1:6 no viable alternative at input 'alter tb'
+line 1:6 no viable alternative at input 'alter tbl'
+line 1:6 no viable alternative at input 'alter tbl_'
+line 1:6 no viable alternative at input 'alter tbl_u'
+line 1:6 no viable alternative at input 'alter tbl_us'
+line 1:6 no viable alternative at input 'alter tbl_use'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+2023-07-13 16:23:51.894 - Error resolving object
+org.jkiss.dbeaver.DBException: Table 'tbl_user' not found in catalog 'app'
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLStructureAssistant$1.resolveObject(MySQLStructureAssistant.java:141)
+	at org.jkiss.dbeaver.ui.editors.sql.dialogs.SuggestionInformationControl$1.run(SuggestionInformationControl.java:130)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+line 1:6 no viable alternative at input 'alter tbl_user'
+2023-07-13 16:24:01.319 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tbl_user change user_email = user_id_email' at line 1
+
+Error position:
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tbl_user change user_email = user_id_email' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:924)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3873)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5096)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tbl_user change user_email = user_id_email' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+line 1:6 no viable alternative at input 'alter t'
+line 1:6 no viable alternative at input 'alter ta'
+line 1:6 no viable alternative at input 'alter tal'
+line 1:6 no viable alternative at input 'alter talb'
+line 1:6 no viable alternative at input 'alter tab'
+line 1:6 no viable alternative at input 'alter tabl'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+2023-07-13 16:24:27.301 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= user_id_email varchar(255) not null' at line 1
+
+Error position:
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= user_id_email varchar(255) not null' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:924)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3873)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5096)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= user_id_email varchar(255) not null' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+line 1:1 no viable alternative at input 's'
+line 1:2 no viable alternative at input 'se'
+line 1:3 no viable alternative at input 'sel'
+line 1:4 no viable alternative at input 'sele'
+line 1:5 no viable alternative at input 'selec'
+line 1:6 no viable alternative at input 'select'
+line 1:10 no viable alternative at input 'select * f'
+line 1:10 no viable alternative at input 'select * f'
+line 1:10 no viable alternative at input 'select * f'
+2023-07-13 16:25:11.867 - Table 'app.tbl_user' not found in metadata catalog
+2023-07-13 16:25:11.867 - Table 'app.tbl_user' not found in metadata catalog
+2023-07-13 16:25:11.867 - Table 'app.tbl_user' not found in metadata catalog
+2023-07-13 16:25:11.867 - Table 'app.tbl_user' not found in metadata catalog
+2023-07-13 16:25:11.867 - Table 'app.tbl_user' not found in metadata catalog
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 2:11 no viable alternative at input 'create table tbl_user(\r\n\tid bigint unsigned'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+line 1:1 no viable alternative at input 's'
+line 1:2 no viable alternative at input 'se'
+line 1:3 no viable alternative at input 'sel'
+line 1:4 no viable alternative at input 'sele'
+line 1:5 no viable alternative at input 'selec'
+line 1:6 no viable alternative at input 'select'
+line 1:10 no viable alternative at input 'select * f'
+line 1:10 no viable alternative at input 'select * f'
+line 1:10 no viable alternative at input 'select * f'
+2023-07-13 16:26:12.677 - Table 'app.tbl_user' not found in metadata catalog
+2023-07-13 16:26:12.677 - Table 'app.tbl_user' not found in metadata catalog
+2023-07-13 16:26:12.678 - Table 'app.tbl_user' not found in metadata catalog
+2023-07-13 16:26:12.678 - Table 'app.tbl_user' not found in metadata catalog
+2023-07-13 16:26:12.678 - Table 'app.tbl_user' not found in metadata catalog
+line 1:1 no viable alternative at input 'a'
+line 1:1 no viable alternative at input 'a'
+line 1:2 no viable alternative at input 'al'
+line 1:3 no viable alternative at input 'alt'
+line 1:4 no viable alternative at input 'alte'
+line 1:5 no viable alternative at input 'alter'
+line 1:6 no viable alternative at input 'alter t'
+line 1:6 no viable alternative at input 'alter tb'
+line 1:6 no viable alternative at input 'alter tbl'
+line 1:6 no viable alternative at input 'alter tbla'
+line 1:6 no viable alternative at input 'alter tba'
+line 1:6 no viable alternative at input 'alter ta'
+line 1:6 no viable alternative at input 'alter tab'
+line 1:6 no viable alternative at input 'alter tabl'
+line 1:11 no viable alternative at input 'alter table'
+line 1:13 no viable alternative at input 'alter table t'
+line 1:13 no viable alternative at input 'alter table s'
+line 1:13 no viable alternative at input 'alter table t'
+line 1:17 no viable alternative at input 'alter table tbl_u'
+2023-07-13 16:27:42.421 - Error resolving object
+org.jkiss.dbeaver.DBException: Table 'tbl_user' not found in catalog 'app'
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLStructureAssistant$1.resolveObject(MySQLStructureAssistant.java:141)
+	at org.jkiss.dbeaver.ui.editors.sql.dialogs.SuggestionInformationControl$1.run(SuggestionInformationControl.java:130)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+line 1:21 no viable alternative at input 'alter table tbl_user c'
+line 1:21 no viable alternative at input 'alter table tbl_user ch'
+line 1:21 no viable alternative at input 'alter table tbl_user cha'
+line 1:21 no viable alternative at input 'alter table tbl_user chag'
+line 1:21 no viable alternative at input 'alter table tbl_user chage'
+line 1:21 no viable alternative at input 'alter table tbl_user chagn'
+line 1:21 no viable alternative at input 'alter table tbl_user chagne'
+line 1:21 no viable alternative at input 'alter table tbl_user chage'
+line 1:21 no viable alternative at input 'alter table tbl_user chageg'
+line 1:21 no viable alternative at input 'alter table tbl_user chag'
+line 1:21 no viable alternative at input 'alter table tbl_user chage'
+line 1:21 no viable alternative at input 'alter table tbl_user chan'
+line 1:21 no viable alternative at input 'alter table tbl_user chang'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+line 1:21 no viable alternative at input 'alter table tbl_user change'
+line 1:21 no viable alternative at input 'alter table tbl_user m'
+line 1:21 no viable alternative at input 'alter table tbl_user mo'
+line 1:21 no viable alternative at input 'alter table tbl_user mod'
+line 1:21 no viable alternative at input 'alter table tbl_user modi'
+line 1:21 no viable alternative at input 'alter table tbl_user modif'
+line 1:21 no viable alternative at input 'alter table tbl_user modify'
+line 1:1 no viable alternative at input 's'
+line 1:10 no viable alternative at input 'select * g'
+line 1:10 no viable alternative at input 'select * g'
+line 1:10 no viable alternative at input 'select * g'
+line 1:11 no viable alternative at input 'select * gr'
+line 1:11 no viable alternative at input 'select * gr'
+line 1:11 no viable alternative at input 'select * gr'
+line 1:10 no viable alternative at input 'select * g'
+line 1:10 no viable alternative at input 'select * g'
+line 1:10 no viable alternative at input 'select * g'
+line 1:11 no viable alternative at input 'select * gt'
+line 1:11 no viable alternative at input 'select * gt'
+line 1:11 no viable alternative at input 'select * gt'
+line 1:12 no viable alternative at input 'select * gto'
+line 1:12 no viable alternative at input 'select * gto'
+line 1:12 no viable alternative at input 'select * gto'
+line 1:10 no viable alternative at input 'select * f'
+line 1:10 no viable alternative at input 'select * f'
+line 1:10 no viable alternative at input 'select * f'
+line 1:12 no viable alternative at input 'select * frp'
+line 1:12 no viable alternative at input 'select * frp'
+line 1:12 no viable alternative at input 'select * frp'
+line 1:13 no viable alternative at input 'select * frpm'
+line 1:13 no viable alternative at input 'select * frpm'
+line 1:13 no viable alternative at input 'select * frpm'
+line 1:12 no viable alternative at input 'select * fro'
+line 1:12 no viable alternative at input 'select * fro'
+line 1:12 no viable alternative at input 'select * fro'
+2023-07-13 16:29:16.153 - Table 'app.tbl_user' not found in metadata catalog
+2023-07-13 16:29:16.153 - Table 'app.tbl_user' not found in metadata catalog
+2023-07-13 16:29:16.153 - Table 'app.tbl_user' not found in metadata catalog
+2023-07-13 16:29:16.153 - Table 'app.tbl_user' not found in metadata catalog
+2023-07-13 16:29:16.153 - Table 'app.tbl_user' not found in metadata catalog
+> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
+2023-07-13 17:51:09.651 - Execution context closed (localhost, 9)
+2023-07-13 17:51:10.003 - DBeaver is stopping
+2023-07-13 17:51:10.004 - Stop RMI server
+2023-07-13 17:51:10.005 - RMI controller has been stopped
+2023-07-13 17:51:10.011 - DBeaver shutdown completed

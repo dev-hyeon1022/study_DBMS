@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drivers>
+	<provider id="mysql">
+		<driver id="mysql8" categories="sql" name="MySQL" class="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://{host}[:{port}]/[{database}]" port="3306" defaultUser="root" description="Driver for MySQL 8 and later" custom="false">
+			<library type="jar" path="C:\kdt_0900_lsh\dbms\mysql\resource\mysql-connector-java-8.0.29\mysql-connector-java-8.0.29.jar" custom="true"/>
+		</driver>
+	</provider>
+</drivers>

@@ -1,0 +1,24 @@
+- DML(Data Manipulation Language): 데이터 조작어
+   1. select : 조회(검색)
+      select [컬럼명1], [컬럼명2], ...]
+      from [테이블명]
+      where [조건식]
+      
+   2. insert : 추가
+      1) 컬럼을 생략할 수 있다, 이 때 default 제약조건이 발동된다.
+      isnert into [테이블명]
+      ([컬럼명1], [컬럼명2], ...)
+      values([값1], [값2], ...)
+
+      2)모든 값을 전부 작성해되며, 컬럼명은 직접 작성하지 않는다.
+      insert into [테이블명]
+      values([값1], [값2], ...)
+
+   3. update : 수정
+      update [테이블명]
+      set [기존 컬럼명1] = [새로운 값1], [기존 컬럼명2] = [새로운 값2], ....
+      where [조건식]
+
+   4. delete : 삭제
+      delete from [테이블명]
+      where [조건식]
